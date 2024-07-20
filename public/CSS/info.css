@@ -1,0 +1,48 @@
+.info-container1 {
+    color: white;
+    padding-top: 100px;
+    max-width: 1200px;
+    margin: 0 300px; /* Sağ ve sol tarafa 300px padding ekliyoruz */
+    text-align: center;
+    text-align: left; /* Metinleri sola hizalıyoruz */
+}
+
+.info-title1 {
+    font-size: 36px; /* Başlık boyutunu belirliyoruz */
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.info-title1 .highlight {
+    color: #CF3333; /* "Kütüphane" kısmının rengini belirliyoruz */
+}
+
+.info-description1 {
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.info-container2 {
+    color: white;
+    padding-top: 40px;
+    max-width: 1200px;
+    margin: 0 300px;
+    text-align: center;
+    text-align: left;
+}
+
+.info-title2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.info-title2 .highlight {
+    color: #CF3333;
+}
+
+.info-description2 {
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+

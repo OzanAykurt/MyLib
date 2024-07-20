@@ -1,0 +1,55 @@
+.header {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.header-left, .header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-left {
+    padding-left: 300px;
+    flex: 1;
+}
+
+.header-left .MyLib-Logo a {
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+}
+
+.header-left .MyLib-Logo a .highlight {
+    color: #CF3333;
+}
+
+.header-right {
+    font-size: 20px;
+    padding-right: 300px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-right a {
+    margin-left: 25px;
+    color: white;
+    text-decoration: none;
+}
